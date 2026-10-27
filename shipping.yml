@@ -1,0 +1,21 @@
+schema_version: 2
+app:
+  id: bip0039
+  display_name: "BIP-0039 Mnemonic"
+  display_name_ko: "BIP-0039 Mnemonic"
+  tagline_ko: "오프라인에서 BIP-39 영문 단어를 찾아보는 앱"
+  tagline_en: "Browse BIP-39 English words offline"
+  platforms: [ios]
+  bundle_ids: [com.sunguk.bip0039]
+  min_os: "iOS 17.0+"
+  version: "1.0"
+  status: unreleased
+  updated_at: "2026.10"
+store:
+  ios: "https://apps.apple.com/app/id6827382555"
+web:
+  privacy: "https://homeninja.vercel.app/privacy/bip0039"
+  support: "https://homeninja.vercel.app/support/bip0039"
+reporting:
+  template: bip0039-bug.yml
+  locales: [ko, en]
