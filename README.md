@@ -4,6 +4,8 @@
 앱이 비활성화되는 즉시 검색 내용을 초기화하며, 앱은 검색 기록을 저장하거나 전송하지 않습니다.
 iOS 17 이상, 세로 화면을 지원합니다.
 
+<p align="center"><img src="docs/images/word-list.png" width="45%" alt="BIP39 영문 단어 목록과 검색 키보드"><img src="docs/images/search-index.png" width="45%" alt="영문 단어 검색 결과와 알파벳 색인"></p>
+
 ## 실행
 
 `BIP39.xcodeproj`를 Xcode에서 열고 BIP39 scheme으로 실행한다. 실기기용 개발 팀은 `project.yml`에 설정되어 있으며, 다른 계정으로 실행할 때는 해당 팀을 자신의 Signing Team으로 변경한다.
